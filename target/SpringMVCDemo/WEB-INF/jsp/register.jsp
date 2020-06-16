@@ -11,6 +11,13 @@
     <title>Registration Form</title>
     <link rel="stylesheet" href="resources/css/style.css">
 </head>
+    <%
+    String msg=(String)request.getAttribute("message");
+    if (msg==null){
+        msg="";
+    }
+%>
+    <%=msg%>
 <body>
 <div class = "form">
     <h1>Registration form </h1>

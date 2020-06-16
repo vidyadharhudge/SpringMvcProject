@@ -4,6 +4,13 @@
     <title>Login Form</title>
     <link rel="stylesheet" href="resources/css/style.css">
 </head>
+<%
+    String msg=(String)request.getAttribute("message");
+    if (msg==null){
+        msg="";
+    }
+%>
+<%=msg%>
 <body>
 <div class = "form">
     <div action="Login">

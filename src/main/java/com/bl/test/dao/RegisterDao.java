@@ -1,6 +1,5 @@
 package com.bl.test.dao;
 import com.bl.test.service.Connector;
-import com.bl.test.interfaces.RegisterDaoInterface;
 import com.bl.test.model.Registration;
 
 import java.sql.PreparedStatement;
