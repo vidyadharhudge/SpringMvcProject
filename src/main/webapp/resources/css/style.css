@@ -1,0 +1,120 @@
+body{
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+}
+
+.Registration{
+    width: 400px;
+    padding: 15% 0 0;
+    text-align: center;
+}
+
+.title{
+    width: 400px;
+    padding: 15% 0 0;
+    margin: auto;
+    text-align: center;
+}
+
+.form{
+    position: center;
+    z-index: 2;
+    background: transparent;
+    max-width: 360px;
+    margin: 0 auto 200px;
+    padding: 50px;
+    text-align: center;
+}
+
+.Login{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    background:transparent;
+    max-width: 360px;
+    margin: 25px 50px 75px;
+    padding: 50px;
+    text-align: center;
+}
+
+.Login{
+    position: relative;
+    z-index: 1;
+    background: #808080;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    front-family:"Roboto",sans-serif;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    border:1px solid #0e0e13;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: content-box;
+    front-size:14px;
+}
+
+.form password{
+    front-family:"Roboto",sans-serif;
+    background-color: rgba(49, 212, 212, 0.99);
+    width:100%;
+    border:0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: content-box;
+    front-size:14px;
+}
+
+.form submit{
+    front-family:"Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: rgba(60, 227, 27, 0.99);
+    width:25%;
+    border:0;
+    padding: 15px;
+    color: #1c0202;
+    front-size:14px;
+    cursor:pointer;
+}
+
+form button{
+    front-family:"Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: rgba(47, 116, 74, 0.99);
+    width:109%;
+    border:1.5cm;
+    padding: 15px;
+    color: #c845de;
+    front-size:14px;
+    cursor:pointer;
+}
+
+.form button:hover,.form button:active{
+    background-color: #70e59b;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    front-size:12px;
+}
+
+.form .message a{
+    color: #f5f9fa;
+    text-decoration:none;
+}
+
+.form .register-form{
+    display: none;
+    text-align: center;
+}
